@@ -4,11 +4,11 @@ i_am_a_profile_name:  dbt_cloud_build_bq
     
     dev:
       type: bigquery
-      method: service-account
+      method: oauth 
       project: dbt-learn-team
       dataset: dbt_liveabilityment360_26Aug
       threads: 4
-      keyfile: /secrets/dbt-service-keyfile
+      keyfile: 
       timeout_seconds: 300
       priority: interactive
       retries: 1
