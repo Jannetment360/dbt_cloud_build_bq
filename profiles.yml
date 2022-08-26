@@ -1,4 +1,4 @@
-i_am_a_profile_name:  my_new_project
+i_am_a_profile_name:  dbt_cloud_build_bq
   target: dev  
   outputs:
     
