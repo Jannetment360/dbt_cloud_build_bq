@@ -1,5 +1,3 @@
-dbt-cloudbuild.yaml
-
 # gcloud builds submit --config=cloudbuild.yaml .
 steps:
 - id: '1 Run dbt'
