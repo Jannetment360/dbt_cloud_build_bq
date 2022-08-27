@@ -10,8 +10,6 @@ with transform_hospitals as (
         ,State
         ,Postcode
         ,Phone
-        ,Website
-        ,Email
         ,ST_GeogPoint(Longitude,Latitude) as Location 
     from dbt-learn-team.batchdata.Hospitals
 )
