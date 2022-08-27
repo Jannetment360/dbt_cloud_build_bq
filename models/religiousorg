@@ -1,0 +1,18 @@
+{{ config(materialized='table') }}
+
+with transform_religious_org as (
+
+    select 
+        Name
+        ,Categories
+        ,Address
+        ,City
+        ,State
+        ,Postcode
+        ,Phone
+        ,Website
+        ,Email
+    from dbt-learn-team.batchdata.ChurchesReligiousOrg
+)
+
+select * from transform_religious_org
