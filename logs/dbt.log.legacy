@@ -3692,3 +3692,19 @@ There are 1 unused configuration paths:
 2022-08-26 23:59:50.826781 (Thread-71): handling status request
 2022-08-26 23:59:50.827176 (Thread-71): 23:59:50  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '03b0de38-e5c2-4351-9973-d5eda4695dd9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f15846e9700>]}
 2022-08-26 23:59:50.827659 (Thread-71): sending response (<Response 1714 bytes [200 OK]>) to 10.0.41.15
+2022-08-27 00:00:14.733499 (Thread-72): 00:00:14  Partial parsing enabled: 0 files deleted, 0 files added, 0 files changed.
+2022-08-27 00:00:14.733744 (Thread-72): 00:00:14  Partial parsing enabled, no changes found, skipping parsing
+2022-08-27 00:00:14.734099 (Thread-72): 00:00:14  [WARNING]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 1 unused configuration paths:
+- models.dbt_cloud_build_bq
+
+2022-08-27 00:00:14.739607 (Thread-72): 00:00:14  Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '03b0de38-e5c2-4351-9973-d5eda4695dd9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f158450b640>]}
+2022-08-27 00:00:15.920993 (Thread-73): handling status request
+2022-08-27 00:00:15.921407 (Thread-73): 00:00:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '03b0de38-e5c2-4351-9973-d5eda4695dd9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f15845c63d0>]}
+2022-08-27 00:00:15.921920 (Thread-73): sending response (<Response 1714 bytes [200 OK]>) to 10.0.41.15
+2022-08-27 00:00:15.989870 (Thread-74): handling status request
+2022-08-27 00:00:15.997011 (Thread-74): 00:00:15  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '03b0de38-e5c2-4351-9973-d5eda4695dd9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f15845c61f0>]}
+2022-08-27 00:00:15.997559 (Thread-74): sending response (<Response 1714 bytes [200 OK]>) to 10.0.41.15
+2022-08-27 00:00:28.211888 (Thread-75): handling status request
+2022-08-27 00:00:28.212306 (Thread-75): 00:00:28  Sending event: {'category': 'dbt', 'action': 'rpc_request', 'label': '03b0de38-e5c2-4351-9973-d5eda4695dd9', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x7f15845c6100>]}
+2022-08-27 00:00:28.212798 (Thread-75): sending response (<Response 1714 bytes [200 OK]>) to 10.0.41.15
