@@ -6,7 +6,7 @@ i_am_a_profile_name:  dbt_cloud_build_bq
       type: bigquery
       method: oauth 
       project: dbt-learn-team
-      dataset: dbt_liveabilityment360_26Aug
+      dataset: dbt_liveability_prod
       threads: 4
       keyfile: 
       timeout_seconds: 300
